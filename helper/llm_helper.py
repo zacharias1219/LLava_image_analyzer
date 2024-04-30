@@ -1,6 +1,6 @@
 from ollama import generate
 from config import Config
-from helpers.image_helper import get_image_bytes
+from helper.image_helper import get_image_bytes
 
 system_prompt = Config.SYSTEM_PROMPT
 
