@@ -1,7 +1,7 @@
 import streamlit as st
 from config import Config
-from helpers.image_helper import create_temp_file
-from helpers.llm_helper import analyze_image_file, stream_parser
+from helper.image_helper import create_temp_file
+from helper.llm_helper import analyze_image_file, stream_parser
 
 page_title = Config.PAGE_TITLE
 
